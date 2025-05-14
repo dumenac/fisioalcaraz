@@ -12,48 +12,48 @@
   "home": {
     "title": "Recupera tu bienestar con Fisio Alcaraz",
     "subtitle": "Centro de fisioterapia especializado en Barcelona con más de 5 años de experiencia. Tratamientos personalizados para lesiones deportivas, rehabilitación y terapia manual.",
-    "cta": "Pide tu Cita Ahora"
+    "cta": "Pide tu cita ahora"
   },
   "about": {
     "title": "Juan Alcaraz",
     "subtitle": "Fisioterapeuta",
     "imageAlt": "Juan Alcaraz",
     "education": {
-      "title": "Formación y Experiencia",
+      "title": "Formación y experiencia",
       "content": "Fisioterapeuta dedicado con una sólida formación académica de la Universitat Internacional de Catalunya (UIC), Juan aporta una gran riqueza de conocimientos y experiencia a su práctica. Su compromiso con el aprendizaje continuo y el desarrollo profesional le ha llevado a trabajar con instituciones prestigiosas, incluyendo el FC Barcelona."
     },
     "approach": {
-      "title": "Enfoque de Atención",
+      "title": "Enfoque de atención",
       "content": "El enfoque de Juan combina la práctica basada en la evidencia con una atención personalizada, asegurando que cada paciente reciba un tratamiento adaptado a sus necesidades específicas. Su experiencia en fisioterapia deportiva y rehabilitación le ha convertido en un profesional de confianza en el sector."
     },
     "values": {
-      "title": "Nuestros Valores",
+      "title": "Nuestros valores",
       "patientCare": {
-        "title": "Atención Centrada en el Paciente",
+        "title": "Atención centrada en el paciente",
         "content": "Ponemos a nuestros pacientes en primer lugar, asegurando que sus necesidades y objetivos estén en el centro de todo lo que hacemos."
       },
       "learning": {
-        "title": "Aprendizaje Continuo",
+        "title": "Aprendizaje continuo",
         "content": "Nos mantenemos a la vanguardia de la fisioterapia actualizando continuamente nuestros conocimientos y habilidades."
       },
       "integrity": {
-        "title": "Integridad y Confianza",
+        "title": "Integridad y confianza",
         "content": "Construimos relaciones duraderas con nuestros pacientes basadas en la confianza, la honestidad y la integridad profesional."
       }
     },
     "cta": {
-      "title": "¿Listo para Comenzar tu Camino hacia una Mejor Salud?",
+      "title": "¿Listo para comenzar tu camino hacia una mejor salud?",
       "subtitle": "Experimenta la diferencia que puede hacer nuestra atención personalizada.",
       "button": "Contáctanos"
     }
   },
   "services": {
-    "title": "Nuestros Servicios",
+    "title": "Nuestros servicios",
     "subtitle": "Descubre nuestra gama completa de servicios especializados en fisioterapia",
     "cta": {
-      "title": "¿Listo para Comenzar tu Recuperación?",
+      "title": "¿Listo para comenzar tu recuperación?",
       "description": "Reserva tu cita hoy y da el primer paso hacia una mejor salud.",
-      "button": "Reservar Ahora"
+      "button": "Reservar ahora"
     },
     "physiotherapy": {
       "title": "Fisioterapia",
@@ -67,7 +67,7 @@
       ]
     },
     "sports": {
-      "title": "Terapia Deportiva",
+      "title": "Terapia deportiva",
       "description": "Atención especializada para atletas y entusiastas del deporte, centrada en la prevención de lesiones, mejora del rendimiento y recuperación rápida.",
       "features": [
         "Tratamiento de lesiones deportivas",
@@ -78,7 +78,7 @@
       ]
     },
     "manual": {
-      "title": "Terapia Manual",
+      "title": "Terapia manual",
       "description": "Técnicas de terapia manual que se centran en áreas específicas de dolor y disfunción, proporcionando alivio inmediato y beneficios a largo plazo.",
       "features": [
         "Movilización articular",
@@ -100,7 +100,7 @@
       ]
     },
     "massage": {
-      "title": "Masaje Terapéutico",
+      "title": "Masaje terapéutico",
       "description": "Tratamientos de masaje terapéutico que promueven la curación, reducen el dolor y mejoran el bienestar general.",
       "features": [
         "Masaje de tejido profundo",
@@ -119,17 +119,17 @@
   },
   "contact": {
     "title": "Contacto",
-    "getInTouch": "Ponte en Contacto",
-    "sendMessage": "Envíanos un Mensaje",
+    "getInTouch": "Ponte en contacto",
+    "sendMessage": "Envíanos un mensaje",
     "name": "Nombre",
     "namePlaceholder": "Introduce tu nombre",
-    "email": "Correo Electrónico",
+    "email": "Correo electrónico",
     "emailPlaceholder": "Introduce tu correo electrónico",
     "phone": "Teléfono",
     "phonePlaceholder": "Introduce tu número de teléfono",
     "message": "Mensaje",
     "messagePlaceholder": "Escribe tu mensaje aquí...",
-    "submit": "Enviar Mensaje",
+    "submit": "Enviar mensaje",
     "mapPlaceholder": "Aquí se mostrará el mapa",
     "validation": {
       "required": "Este campo es obligatorio",
@@ -139,7 +139,7 @@
     "success": "¡Mensaje enviado con éxito!",
     "error": "Ha ocurrido un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
   },
-"footer": {
+  "footer": {
     "clinicName": "Fisio Alcaraz",
     "description": "Fisioterapia Alcaraz es un centro especializado en el tratamiento y la prevención de lesiones musculoesqueléticas. Nuestro equipo combina la experiencia clínica con la atención personalizada, utilizando las técnicas más avanzadas para mejorar tu salud y bienestar.",
     "contactUs": "Contáctanos",
@@ -151,22 +151,22 @@
     "copyright": "© {year} Fisioterapia Alcaraz. Todos los derechos reservados."
   },
   "whyChooseUs": {
-    "title": "Por Qué Elegirnos",
+    "title": "Por qué elegirnos",
     "expertTeam": {
-      "title": "Equipo Experto",
+      "title": "Equipo experto",
       "description": "Nuestro equipo está formado por fisioterapeutas altamente cualificados y con experiencia."
     },
     "modernEquipment": {
-      "title": "Equipamiento Moderno",
+      "title": "Equipamiento moderno",
       "description": "Utilizamos la última tecnología y equipamiento para obtener los mejores resultados."
     },
     "personalizedCare": {
-      "title": "Atención Personalizada",
+      "title": "Atención personalizada",
       "description": "Proporcionamos planes de tratamiento personalizados para cada paciente."
     }
   },
   "bookAppointment": {
-    "title": "Reserva tu Cita",
+    "title": "Reserva tu cita",
     "description": "Selecciona una fecha y hora que te convenga para tu sesión de fisioterapia"
   }
 } 

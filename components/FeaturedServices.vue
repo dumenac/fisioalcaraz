@@ -24,7 +24,10 @@
             
             <!-- Hover reveal button -->
             <div class="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <button class="inline-flex items-center text-primary-500  hover:text-primary-600">
+              <button 
+                @click="navigateToService(service.id)"
+                class="inline-flex items-center text-primary-500 hover:text-primary-600"
+              >
                 Learn more
                 <Icon name="mdi:arrow-right" class="ml-2 transform group-hover:translate-x-1 transition-transform" />
               </button>
@@ -40,6 +43,30 @@
 </template>
 
 <script setup>
+import { NuxtLinkLocale } from '#components';
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const navigateToService = (serviceId) => {
+  router.push('/services').then(() => {
+    // Wait for the page to load and then scroll
+    setTimeout(() => {
+      const element = document.getElementById(serviceId);
+      if (element) {
+        const offset = 100; // Adjust this value as needed
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }, 100);
+  });
+};
+
 const services = [
   {
     id: 'physiotherapy',

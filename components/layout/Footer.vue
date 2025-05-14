@@ -33,7 +33,7 @@
             <li><NuxtLinkLocale to="/about" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.about') }}</NuxtLinkLocale></li>
             <li><NuxtLinkLocale to="/services" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.services') }}</NuxtLinkLocale></li>
             <li><NuxtLinkLocale to="/contact" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.contact') }}</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/cita" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.appointment') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/cita" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.book') }}</NuxtLinkLocale></li>
           </ul>
         </div>
         <!-- Press, Social, Registration -->

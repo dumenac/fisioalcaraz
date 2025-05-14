@@ -5,14 +5,14 @@
   "nav": {
     "home": "Inici",
     "services": "Serveis",
-    "about": "Sobre Nosaltres",
+    "about": "Sobre nosaltres",
     "contact": "Contacte",
     "book": "Demana cita"
   },
   "home": {
-    "title": "Benvingut a FisioAlcaraz",
-    "subtitle": "La teva salut és la nostra prioritat",
-    "cta": "Demana Cita"
+    "title": "Recupera el teu benestar amb Fisio Alcaraz",
+    "subtitle": "Centre de fisioteràpia especialitzat a Barcelona amb més de 5 anys d'experiència. Tractaments personalitzats per a lesions esportives, rehabilitació i teràpia manual.",
+    "cta": "Demana la teva cita ara"
   },
   "reviews": {
     "title": "Opinions dels nostres pacients",
@@ -21,26 +21,26 @@
     "viewMore": "Veure més"
   },
   "services": {
-    "title": "Els nostres Serveis",
-    "subtitle": "Descobreix la nostra gamma completa de serveis especialitzats en fisioterapia",
+    "title": "Els nostres serveis",
+    "subtitle": "Descobreix la nostra gamma completa de serveis especialitzats en fisioteràpia",
     "cta": {
-      "title": "Preparat per a la Recuperació?",
-      "description": "Reserva la teva cita avui i dóna el primer pas cap a una millor salut.",
-      "button": "Reserva Ara"
+      "title": "Preparat per començar la teva recuperació?",
+      "description": "Reserva la teva cita avui i fes el primer pas cap a una millor salut.",
+      "button": "Reserva ara"
     },
     "physiotherapy": {
-      "title": "Fisioterapia",
-      "description": "Els nostres serveis integrals de fisioterapia estan dissenyats per ajudar-te a recuperar-te de lesions, gestionar condicions cròniques i millorar el teu benestar físic general.",
+      "title": "Fisioteràpia",
+      "description": "Els nostres serveis integrals de fisioteràpia estan dissenyats per ajudar-te a recuperar-te de lesions, gestionar condicions cròniques i millorar el teu benestar físic general.",
       "features": [
         "Maneig i alleujament del dolor",
         "Millora de la movilitat",
         "Entrenament de força i flexibilitat",
         "Correcció postural",
-        "Ejercicis d'equilibri i coordinació"
+        "Exercicis d'equilibri i coordinació"
       ]
     },
     "sports": {
-      "title": "Fisioteràpia Esportiva",
+      "title": "Teràpia esportiva",
       "description": "Atenció especialitzada per a atletes i entusiastes de l'esport, centrada en la prevenció de lesions, millora del rendiment i recuperació ràpida.",
       "features": [
         "Tractament de lesions esportives",
@@ -51,7 +51,7 @@
       ]
     },
     "manual": {
-      "title": "Teràpia Manual",
+      "title": "Teràpia manual",
       "description": "Tècniques de teràpia manual que es centren en àrees específiques de dolor i disfunció, proporcionant alleujament immediat i beneficis a llarg termini.",
       "features": [
         "Mobilització articular",
@@ -73,7 +73,7 @@
       ]
     },
     "massage": {
-      "title": "Massatge Terapèutic",
+      "title": "Massatge terapèutic",
       "description": "Tractaments de massatge terapèutic que promouen la curació, redueixen el dolor i milloren el benestar general.",
       "features": [
         "Massatge de teixit profund",
@@ -89,47 +89,47 @@
     "subtitle": "Fisioterapeuta",
     "imageAlt": "Juan Alcaraz",
     "education": {
-      "title": "Formació i Experiència",
+      "title": "Formació i experiència",
       "content": "Fisioterapeuta dedicat amb una sòlida formació acadèmica de la Universitat Internacional de Catalunya (UIC), Joan aporta una gran riquesa de coneixements i experiència a la seva pràctica. El seu compromís amb l'aprenentatge continu i el desenvolupament professional l'ha portat a treballar amb institucions prestigioses, incloent-hi el FC Barcelona."
     },
     "approach": {
-      "title": "Enfocament de l'Atenció",
+      "title": "Enfocament de l'atenció",
       "content": "L'enfocament de Joan combina la pràctica basada en l'evidència amb una atenció personalitzada, assegurant que cada pacient rebi un tractament adaptat a les seves necessitats específiques. La seva experiència en fisioteràpia esportiva i rehabilitació l'ha convertit en un professional de confiança en el sector."
     },
     "values": {
-      "title": "Els Nostres Valors",
+      "title": "Els nostres valors",
       "patientCare": {
-        "title": "Atenció Centrada en el Pacient",
+        "title": "Atenció centrada en el pacient",
         "content": "Posem els nostres pacients en primer lloc, assegurant que les seves necessitats i objectius estiguin al centre de tot el que fem."
       },
       "learning": {
-        "title": "Aprenentatge Continu",
+        "title": "Aprenentatge continu",
         "content": "Ens mantenim a l'avantguarda de la fisioteràpia actualitzant contínuament els nostres coneixements i habilitats."
       },
       "integrity": {
-        "title": "Integritat i Confiança",
+        "title": "Integritat i confiança",
         "content": "Construïm relacions duradores amb els nostres pacients basades en la confiança, l'honestedat i la integritat professional."
       }
     },
     "cta": {
-      "title": "Preparat per Començar el teu Camí cap a una Millor Salut?",
+      "title": "Preparat per començar el teu camí cap a una millor salut?",
       "subtitle": "Experimenta la diferència que pot fer la nostra atenció personalitzada.",
       "button": "Contacta'ns"
     }
   },
   "contact": {
     "title": "Contacte",
-    "getInTouch": "Posa't en Contacte",
-    "sendMessage": "Envia'ns un Missatge",
+    "getInTouch": "Posa't en contacte",
+    "sendMessage": "Envia'ns un missatge",
     "name": "Nom",
     "namePlaceholder": "Introdueix el teu nom",
-    "email": "Correu Electrònic",
+    "email": "Correu electrònic",
     "emailPlaceholder": "Introdueix el teu correu electrònic",
     "phone": "Telèfon",
     "phonePlaceholder": "Introdueix el teu número de telèfon",
     "message": "Missatge",
     "messagePlaceholder": "Escriu el teu missatge aquí...",
-    "submit": "Enviar Missatge",
+    "submit": "Enviar missatge",
     "mapPlaceholder": "Aquí es mostrarà el mapa",
     "validation": {
       "required": "Aquest camp és obligatori",
@@ -140,33 +140,33 @@
     "error": "Hi ha hagut un error en enviar el teu missatge. Si us plau, torna-ho a provar."
   },
   "footer": {
-    "contact": "Contacte",
-    "address": "Carrer Principal 123, Ciutat",
-    "phone": "Telèfon: +34 123 456 789",
+    "clinicName": "Fisio Alcaraz",
+    "description": "Fisioteràpia Alcaraz és un centre especialitzat en el tractament i la prevenció de lesions musculoesquelètiques. El nostre equip combina l'experiència clínica amb l'atenció personalitzada, utilitzant les tècniques més avançades per millorar la teva salut i benestar.",
+    "contactUs": "Contacta'ns",
+    "address": "C/Muntaner, 270",
+    "city": "08021 Barcelona",
+    "phone": "Tel. +34 93 241 77 47",
     "email": "info(at)fisioalcaraz.com",
-    "hours": "Horari",
-    "weekdays": "Dilluns a Divendres: 9:00 - 20:00",
-    "saturday": "Dissabte: 9:00 - 14:00",
-    "follow": "Segueix-nos",
-    "rights": "Tots els drets reservats"
+    "aboutUs": "Sobre nosaltres",
+    "copyright": "© {year} Fisioteràpia Alcaraz. Tots els drets reservats."
   },
   "whyChooseUs": {
-    "title": "Per Què Triar-nos",
+    "title": "Per què triar-nos",
     "expertTeam": {
-      "title": "Equip Expert",
+      "title": "Equip expert",
       "description": "El nostre equip està format per fisioterapeutes altament qualificats i amb experiència."
     },
     "modernEquipment": {
-      "title": "Equipament Modern",
+      "title": "Equipament modern",
       "description": "Utilitzem la darrera tecnologia i equipament per obtenir els millors resultats."
     },
     "personalizedCare": {
-      "title": "Atenció Personalitzada",
+      "title": "Atenció personalitzada",
       "description": "Proporcionem plans de tractament personalitzats per a cada pacient."
     }
   },
   "bookAppointment": {
-    "title": "Reserva la teva Cita",
+    "title": "Reserva la teva cita",
     "description": "Selecciona una data i hora que et convingui per a la teva sessió de fisioteràpia"
   }
 } 

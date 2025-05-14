@@ -5,14 +5,14 @@
   "nav": {
     "home": "Home",
     "services": "Services",
-    "about": "About Us",
+    "about": "About us",
     "contact": "Contact",
     "book": "Book appointment"
   },
   "home": {
-    "title": "Welcome to FisioAlcaraz",
-    "subtitle": "Your health is our priority",
-    "cta": "Book Appointment"
+    "title": "Recover your well-being with Fisio Alcaraz",
+    "subtitle": "Specialized physiotherapy center in Barcelona with more than 5 years of experience. Personalized treatments for sports injuries, rehabilitation and manual therapy.",
+    "cta": "Book an appointment"
   },
   "reviews": {
     "title": "Reviews",
@@ -48,18 +48,18 @@
       }
     },
     "cta": {
-      "title": "Ready to Start Your Journey to Better Health?",
+      "title": "Ready to start your journey to better health?",
       "subtitle": "Experience the difference our personalized care can make.",
-      "button": "Contact Us"
+      "button": "Contact us"
     }
   },
   "services": {
     "title": "Our Services",
     "subtitle": "Discover our comprehensive range of specialized physiotherapy services",
     "cta": {
-      "title": "Ready to Start Your Recovery Journey?",
+      "title": "Ready to start your recovery journey?",
       "description": "Book your appointment today and take the first step towards better health.",
-      "button": "Book Now"
+      "button": "Book now"
     },
     "physiotherapy": {
       "title": "Physiotherapy",
@@ -119,8 +119,8 @@
   },
   "contact": {
     "title": "Contact Us",
-    "getInTouch": "Get in Touch",
-    "sendMessage": "Send us a Message",
+    "getInTouch": "Get in touch",
+    "sendMessage": "Send us a message",
     "name": "Name",
     "namePlaceholder": "Enter your name",
     "email": "Email",
@@ -129,7 +129,7 @@
     "phonePlaceholder": "Enter your phone number",
     "message": "Message",
     "messagePlaceholder": "Type your message here...",
-    "submit": "Send Message",
+    "submit": "Send message",
     "mapPlaceholder": "Map will be displayed here",
     "validation": {
       "required": "This field is required",
@@ -142,12 +142,12 @@
   "footer": {
     "clinicName": "Fisio Alcaraz",
     "description": "Fisio Alcaraz is a specialized center for the treatment and prevention of musculoskeletal injuries. Our team combines clinical experience with personalized attention, using the latest techniques to improve your health and well-being.",
-    "contactUs": "Contact Us",
+    "contactUs": "Contact us",
     "address": "C/Muntaner, 270",
     "city": "08021 Barcelona",
     "phone": "Tel. +34 93 241 77 47",
     "email": "info(at)fisioalcaraz.com",
-    "aboutUs": "About Us",
+    "aboutUs": "About us",
     "copyright": "© {year} Fisio Alcaraz. All rights reserved."
   },
   "whyChooseUs": {
@@ -166,7 +166,7 @@
     }
   },
   "bookAppointment": {
-    "title": "Book Your Appointment",
+    "title": "Book your appointment",
     "description": "Select a date and time that works for your physiotherapy session"
   }
 } 

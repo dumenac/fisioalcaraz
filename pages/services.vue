@@ -9,6 +9,7 @@
             v-for="(service, index) in services" 
             :key="service.id"
             class="group relative"
+            :id="service.id"
           >
             <div 
               class="flex flex-col md:flex-row items-center gap-8 p-8 rounded-2xl transition-all duration-300"

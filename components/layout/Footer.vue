@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-primary-600/90 backdrop-blur-sm text-white pt-14 pb-6">
+  <footer class="bg-gray-800/90 backdrop-blur-sm text-white pt-14 pb-6">
     <div class="container mx-auto px-6">
       <!-- Top: Logo, Name (left-aligned), Description below -->
       <div class="flex flex-col items-start md:items-start md:flex-row md:justify-start mb-10">
@@ -48,7 +48,7 @@
       <!-- Divider -->
       <div class="my-8 border-t border-white/20"></div>
       <!-- Bottom Row: Copyright -->
-      <div class="text-center">
+      <div class="text-left">
         <p class="text-white/90 text-base font-medium">{{ $t('footer.copyright', { year: new Date().getFullYear() }) }}</p>
       </div>
     </div>

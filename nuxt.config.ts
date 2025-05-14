@@ -5,6 +5,12 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  site: {
+    url: 'https://fisioalcaraz.com',
+    name: 'Fisio Alcaraz | Centro de fisioterapia en Barcelona',
+    description: 'Fisioterapia Alcaraz es un centro especializado en el tratamiento y la prevención de lesiones musculoesqueléticas. Nuestro equipo combina la experiencia clínica con la atención personalizada, utilizando las técnicas más avanzadas para mejorar tu salud y bienestar.',
+    defaultLocale: 'es',
+  },
   vite: {
     plugins: [
       tailwindcss(),
@@ -16,7 +22,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@nuxtjs/i18n',
-    'nuxt-calendly'
+    'nuxt-calendly',
+    '@nuxtjs/seo'
   ],
   fonts: {
     families: [

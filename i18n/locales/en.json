@@ -2,6 +2,10 @@
   "site": {
     "name": "Fisio Alcaraz"
   },
+  "nuxtSiteConfig": {
+    "name": "Fisio Alcaraz",
+    "description": "Specialized physiotherapy center in Barcelona with more than 5 years of experience. Personalized treatments for sports injuries, rehabilitation and manual therapy."
+  },
   "nav": {
     "home": "Home",
     "services": "Services",

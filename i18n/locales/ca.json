@@ -2,6 +2,10 @@
   "site": {
     "name": "Fisio Alcaraz"
   },
+  "nuxtSiteConfig": {
+    "name": "Fisio Alcaraz",
+    "description": "Centre de fisioterapia especialitzat a Barcelona amb més de 5 anys d'experiència. Tractaments personalitzats per a lesions esportives, rehabilitació i teràpia manual."
+  },
   "nav": {
     "home": "Inici",
     "services": "Serveis",

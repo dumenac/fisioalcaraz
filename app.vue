@@ -6,7 +6,7 @@
 
 <script setup>
 useSeoMeta({
-  ogImage: '/images/juan.png',
+  ogImage: '/images/og-juan.jpg',
 })
 
 // Prevent favicon requests

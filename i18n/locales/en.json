@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "FisioAlcaraz"
+    "name": "Fisio Alcaraz"
   },
   "nav": {
     "home": "Home",
@@ -140,15 +140,15 @@
     "error": "There was an error sending your message. Please try again."
   },
   "footer": {
-    "contact": "Contact",
-    "address": "Main Street 123, City",
-    "phone": "Phone: +34 123 456 789",
-    "email": "lol",
-    "hours": "Opening Hours",
-    "weekdays": "Monday to Friday: 9:00 AM - 8:00 PM",
-    "saturday": "Saturday: 9:00 AM - 2:00 PM",
-    "follow": "Follow Us",
-    "rights": "All rights reserved"
+    "clinicName": "Fisio Alcaraz",
+    "description": "Fisio Alcaraz is a specialized center for the treatment and prevention of musculoskeletal injuries. Our team combines clinical experience with personalized attention, using the latest techniques to improve your health and well-being.",
+    "contactUs": "Contact Us",
+    "address": "C/Muntaner, 270",
+    "city": "08021 Barcelona",
+    "phone": "Tel. +34 93 241 77 47",
+    "email": "info(at)fisioalcaraz.com",
+    "aboutUs": "About Us",
+    "copyright": "© {year} Fisio Alcaraz. All rights reserved."
   },
   "whyChooseUs": {
     "title": "Why Choose Us",

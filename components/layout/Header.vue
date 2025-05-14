@@ -9,8 +9,7 @@
   >
     <nav class="container mx-auto px-6 py-6">
       <div class="flex justify-between items-center">
-        <NuxtLinkLocale to="/" class="text-2xl font-semibold text-white hover:text-white/90 transition-colors flex items-center gap-3">
-          <NuxtImg src="/images/logo.webp" alt="Logo" class="h-10 w-auto" />
+        <NuxtLinkLocale to="/" class="uppercase text-2xl font-logo text-white hover:text-white/90 transition-colors flex items-center gap-3">
           {{ $t('site.name') }}
         </NuxtLinkLocale>
         <div class="flex items-center space-x-8">

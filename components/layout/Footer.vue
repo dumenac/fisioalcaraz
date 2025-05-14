@@ -5,11 +5,10 @@
       <div class="flex flex-col items-start md:items-start md:flex-row md:justify-start mb-10">
         <div class="flex flex-col items-start">
           <div class="flex flex-row items-center space-x-4 mb-2 justify-start">
-            <NuxtImg src="/images/logo.webp" alt="Logo" class="h-16 w-16 rounded-full bg-white/10 p-2 shadow-md" />
-            <span class="text-3xl font-bold tracking-tight">Fisioterapia Alcaraz</span>
+            <span class="text-2xl font-bold tracking-tight uppercase font-logo">{{ $t('site.name') }}</span>
           </div>
           <p class="text-white/90 text-base leading-relaxed max-w-2xl text-left">
-            Fisioterapia Alcaraz es un centro especializado en el tratamiento y la prevención de lesiones musculoesqueléticas. Nuestro equipo combina la experiencia clínica con la atención personalizada, utilizando las técnicas más avanzadas para mejorar tu salud y bienestar.
+            {{ $t('footer.description') }}
           </p>
         </div>
       </div>
@@ -17,25 +16,24 @@
       <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-12 md:gap-8">
         <!-- Contact Info -->
         <div class="flex-1 min-w-[220px] flex flex-col">
-          <h3 class="text-2xl font-semibold mb-4">Contáctanos</h3>
+          <h3 class="text-2xl font-semibold mb-4">{{ $t('footer.contactUs') }}</h3>
           <ul class="text-white/90 space-y-1">
-            <li>Fisioterapia Alcaraz</li>
-            <li>C/Muntaner, 270</li>
-            <li>08021 Barcelona</li>
-            <li class="mt-2">Tel. +34 93 241 77 47</li>
-            <li>info@fisioalcaraz.com</li>
+            <li>{{ $t('footer.clinicName') }}</li>
+            <li>{{ $t('footer.address') }}</li>
+            <li>{{ $t('footer.city') }}</li>
+            <li class="mt-2">{{ $t('footer.phone') }}</li>
+            <li>{{ $t('footer.email') }}</li>
           </ul>
         </div>
         <!-- Navigation -->
         <div class="flex-1 min-w-[220px] flex flex-col">
-          <h3 class="text-2xl font-semibold mb-4">Sobre nosotros</h3>
+          <h3 class="text-2xl font-semibold mb-4">{{ $t('footer.aboutUs') }}</h3>
           <ul class="space-y-1 text-white/90">
-            <li><NuxtLinkLocale to="/" class="hover:underline hover:text-tertiary-300 transition">La Clínica</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/equipo" class="hover:underline hover:text-tertiary-300 transition">Equipo</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/servicios" class="hover:underline hover:text-tertiary-300 transition">Servicios</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/prensa" class="hover:underline hover:text-tertiary-300 transition">Prensa</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/contacto" class="hover:underline hover:text-tertiary-300 transition">Contacto</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/trabaja" class="hover:underline hover:text-tertiary-300 transition">Trabaja con nosotros</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.home') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/about" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.about') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/services" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.services') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/contact" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.contact') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/cita" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.appointment') }}</NuxtLinkLocale></li>
           </ul>
         </div>
         <!-- Press, Social, Registration -->
@@ -52,7 +50,7 @@
       <div class="my-8 border-t border-white/20"></div>
       <!-- Bottom Row: Copyright -->
       <div class="text-center">
-        <p class="text-white/90 text-base font-medium">&copy; {{ new Date().getFullYear() }} Fisioterapia Alcaraz. Todos los derechos reservados.</p>
+        <p class="text-white/90 text-base font-medium">{{ $t('footer.copyright', { year: new Date().getFullYear() }) }}</p>
       </div>
     </div>
   </footer>

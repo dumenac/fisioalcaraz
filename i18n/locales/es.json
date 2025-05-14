@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Fisioterapia Alcaraz"
+    "name": "Fisio Alcaraz"
   },
   "nav": {
     "home": "Inicio",
@@ -139,16 +139,16 @@
     "success": "¡Mensaje enviado con éxito!",
     "error": "Ha ocurrido un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
   },
-  "footer": {
-    "contact": "Contacto",
-    "address": "Calle Principal 123, Ciudad",
-    "phone": "Teléfono: +34 123 456 789",
+"footer": {
+    "clinicName": "Fisio Alcaraz",
+    "description": "Fisioterapia Alcaraz es un centro especializado en el tratamiento y la prevención de lesiones musculoesqueléticas. Nuestro equipo combina la experiencia clínica con la atención personalizada, utilizando las técnicas más avanzadas para mejorar tu salud y bienestar.",
+    "contactUs": "Contáctanos",
+    "address": "C/Muntaner, 270",
+    "city": "08021 Barcelona",
+    "phone": "Tel. +34 93 241 77 47",
     "email": "info(at)fisioalcaraz.com",
-    "hours": "Horario",
-    "weekdays": "Lunes a Viernes: 9:00 - 20:00",
-    "saturday": "Sábado: 9:00 - 14:00",
-    "follow": "Síguenos",
-    "rights": "Todos los derechos reservados"
+    "aboutUs": "Sobre nosotros",
+    "copyright": "© {year} Fisioterapia Alcaraz. Todos los derechos reservados."
   },
   "whyChooseUs": {
     "title": "Por Qué Elegirnos",

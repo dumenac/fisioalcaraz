@@ -21,6 +21,12 @@ export default defineNuxtConfig({
   fonts: {
     families: [
       {
+        name: 'Mansory',
+        provider: 'local',
+        weights: [400],
+        styles: ['normal'],
+      },
+      {
         name: 'Inter',
         provider: 'google',
         weights: [200,300],

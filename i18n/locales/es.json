@@ -1,0 +1,172 @@
+{
+  "site": {
+    "name": "Fisioterapia Alcaraz"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "book": "Pide cita"
+  },
+  "home": {
+    "title": "Bienvenido a Fisioterapia Alcaraz",
+    "subtitle": "Tu salud es nuestra prioridad",
+    "cta": "Pedir Cita"
+  },
+  "about": {
+    "title": "Juan Alcaraz",
+    "subtitle": "Fisioterapeuta",
+    "imageAlt": "Juan Alcaraz",
+    "education": {
+      "title": "Formación y Experiencia",
+      "content": "Fisioterapeuta dedicado con una sólida formación académica de la Universitat Internacional de Catalunya (UIC), Juan aporta una gran riqueza de conocimientos y experiencia a su práctica. Su compromiso con el aprendizaje continuo y el desarrollo profesional le ha llevado a trabajar con instituciones prestigiosas, incluyendo el FC Barcelona."
+    },
+    "approach": {
+      "title": "Enfoque de Atención",
+      "content": "El enfoque de Juan combina la práctica basada en la evidencia con una atención personalizada, asegurando que cada paciente reciba un tratamiento adaptado a sus necesidades específicas. Su experiencia en fisioterapia deportiva y rehabilitación le ha convertido en un profesional de confianza en el sector."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "patientCare": {
+        "title": "Atención Centrada en el Paciente",
+        "content": "Ponemos a nuestros pacientes en primer lugar, asegurando que sus necesidades y objetivos estén en el centro de todo lo que hacemos."
+      },
+      "learning": {
+        "title": "Aprendizaje Continuo",
+        "content": "Nos mantenemos a la vanguardia de la fisioterapia actualizando continuamente nuestros conocimientos y habilidades."
+      },
+      "integrity": {
+        "title": "Integridad y Confianza",
+        "content": "Construimos relaciones duraderas con nuestros pacientes basadas en la confianza, la honestidad y la integridad profesional."
+      }
+    },
+    "cta": {
+      "title": "¿Listo para Comenzar tu Camino hacia una Mejor Salud?",
+      "subtitle": "Experimenta la diferencia que puede hacer nuestra atención personalizada.",
+      "button": "Contáctanos"
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Descubre nuestra gama completa de servicios especializados en fisioterapia",
+    "cta": {
+      "title": "¿Listo para Comenzar tu Recuperación?",
+      "description": "Reserva tu cita hoy y da el primer paso hacia una mejor salud.",
+      "button": "Reservar Ahora"
+    },
+    "physiotherapy": {
+      "title": "Fisioterapia",
+      "description": "Nuestros servicios integrales de fisioterapia están diseñados para ayudarte a recuperarte de lesiones, manejar condiciones crónicas y mejorar tu bienestar físico general.",
+      "features": [
+        "Manejo y alivio del dolor",
+        "Mejora de la movilidad",
+        "Entrenamiento de fuerza y flexibilidad",
+        "Corrección postural",
+        "Ejercicios de equilibrio y coordinación"
+      ]
+    },
+    "sports": {
+      "title": "Terapia Deportiva",
+      "description": "Atención especializada para atletas y entusiastas del deporte, centrada en la prevención de lesiones, mejora del rendimiento y recuperación rápida.",
+      "features": [
+        "Tratamiento de lesiones deportivas",
+        "Programas de mejora del rendimiento",
+        "Estrategias de prevención de lesiones",
+        "Protocolos de retorno al deporte",
+        "Rehabilitación específica para deportes"
+      ]
+    },
+    "manual": {
+      "title": "Terapia Manual",
+      "description": "Técnicas de terapia manual que se centran en áreas específicas de dolor y disfunción, proporcionando alivio inmediato y beneficios a largo plazo.",
+      "features": [
+        "Movilización articular",
+        "Manipulación de tejidos blandos",
+        "Terapia de puntos gatillo",
+        "Liberación miofascial",
+        "Técnicas de estiramiento manual"
+      ]
+    },
+    "rehabilitation": {
+      "title": "Rehabilitación",
+      "description": "Programas integrales de rehabilitación diseñados para ayudarte a recuperarte de cirugías, lesiones o condiciones médicas.",
+      "features": [
+        "Rehabilitación post-cirugía",
+        "Programas de recuperación de lesiones",
+        "Rehabilitación neurológica",
+        "Rehabilitación cardíaca",
+        "Rehabilitación respiratoria"
+      ]
+    },
+    "massage": {
+      "title": "Masaje Terapéutico",
+      "description": "Tratamientos de masaje terapéutico que promueven la curación, reducen el dolor y mejoran el bienestar general.",
+      "features": [
+        "Masaje de tejido profundo",
+        "Masaje deportivo",
+        "Masaje de relajación",
+        "Terapia de puntos gatillo",
+        "Liberación miofascial"
+      ]
+    }
+  },
+  "reviews": {
+    "title": "Reseñas de nuestros pacientes",
+    "loading": "Cargando reseñas...",
+    "error": "Error al cargar las reseñas",
+    "viewMore": "Ver más"
+  },
+  "contact": {
+    "title": "Contacto",
+    "getInTouch": "Ponte en Contacto",
+    "sendMessage": "Envíanos un Mensaje",
+    "name": "Nombre",
+    "namePlaceholder": "Introduce tu nombre",
+    "email": "Correo Electrónico",
+    "emailPlaceholder": "Introduce tu correo electrónico",
+    "phone": "Teléfono",
+    "phonePlaceholder": "Introduce tu número de teléfono",
+    "message": "Mensaje",
+    "messagePlaceholder": "Escribe tu mensaje aquí...",
+    "submit": "Enviar Mensaje",
+    "mapPlaceholder": "Aquí se mostrará el mapa",
+    "validation": {
+      "required": "Este campo es obligatorio",
+      "email": "Por favor, introduce un correo electrónico válido",
+      "phone": "Por favor, introduce un número de teléfono válido"
+    },
+    "success": "¡Mensaje enviado con éxito!",
+    "error": "Ha ocurrido un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "contact": "Contacto",
+    "address": "Calle Principal 123, Ciudad",
+    "phone": "Teléfono: +34 123 456 789",
+    "email": "info(at)fisioalcaraz.com",
+    "hours": "Horario",
+    "weekdays": "Lunes a Viernes: 9:00 - 20:00",
+    "saturday": "Sábado: 9:00 - 14:00",
+    "follow": "Síguenos",
+    "rights": "Todos los derechos reservados"
+  },
+  "whyChooseUs": {
+    "title": "Por Qué Elegirnos",
+    "expertTeam": {
+      "title": "Equipo Experto",
+      "description": "Nuestro equipo está formado por fisioterapeutas altamente cualificados y con experiencia."
+    },
+    "modernEquipment": {
+      "title": "Equipamiento Moderno",
+      "description": "Utilizamos la última tecnología y equipamiento para obtener los mejores resultados."
+    },
+    "personalizedCare": {
+      "title": "Atención Personalizada",
+      "description": "Proporcionamos planes de tratamiento personalizados para cada paciente."
+    }
+  },
+  "bookAppointment": {
+    "title": "Reserva tu Cita",
+    "description": "Selecciona una fecha y hora que te convenga para tu sesión de fisioterapia"
+  }
+} 

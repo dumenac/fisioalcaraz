@@ -1,0 +1,172 @@
+{
+  "site": {
+    "name": "FisioAlcaraz"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact",
+    "book": "Book appointment"
+  },
+  "home": {
+    "title": "Welcome to FisioAlcaraz",
+    "subtitle": "Your health is our priority",
+    "cta": "Book Appointment"
+  },
+  "reviews": {
+    "title": "Reviews",
+    "loading": "Loading reviews...",
+    "error": "Error loading reviews",
+    "viewMore": "View more"
+  },
+  "about": {
+    "title": "Juan Alcaraz",
+    "subtitle": "Physiotherapist",
+    "imageAlt": "Juan Alcaraz",
+    "education": {
+      "title": "Education & Experience",
+      "content": "A dedicated physiotherapist with a strong academic background from Universitat Internacional de Catalunya (UIC), Juan brings a wealth of knowledge and experience to his practice. His commitment to continuous learning and professional development has led him to work with prestigious institutions, including FC Barcelona."
+    },
+    "approach": {
+      "title": "Approach to Care",
+      "content": "Juan's approach combines evidence-based practice with personalized care, ensuring that each patient receives treatment tailored to their specific needs. His experience in sports physiotherapy and rehabilitation has made him a trusted professional in the field."
+    },
+    "values": {
+      "title": "Our Values",
+      "patientCare": {
+        "title": "Patient-Centered Care",
+        "content": "We put our patients first, ensuring their needs and goals are at the center of everything we do."
+      },
+      "learning": {
+        "title": "Continuous Learning",
+        "content": "We stay at the forefront of physiotherapy by continuously updating our knowledge and skills."
+      },
+      "integrity": {
+        "title": "Integrity & Trust",
+        "content": "We build lasting relationships with our patients based on trust, honesty, and professional integrity."
+      }
+    },
+    "cta": {
+      "title": "Ready to Start Your Journey to Better Health?",
+      "subtitle": "Experience the difference our personalized care can make.",
+      "button": "Contact Us"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Discover our comprehensive range of specialized physiotherapy services",
+    "cta": {
+      "title": "Ready to Start Your Recovery Journey?",
+      "description": "Book your appointment today and take the first step towards better health.",
+      "button": "Book Now"
+    },
+    "physiotherapy": {
+      "title": "Physiotherapy",
+      "description": "Our comprehensive physiotherapy services are designed to help you recover from injuries, manage chronic conditions, and improve your overall physical well-being.",
+      "features": [
+        "Pain management and relief",
+        "Mobility improvement",
+        "Strength and flexibility training",
+        "Posture correction",
+        "Balance and coordination exercises"
+      ]
+    },
+    "sports": {
+      "title": "Sports Therapy",
+      "description": "Specialized care for athletes and sports enthusiasts, focusing on injury prevention, performance enhancement, and quick recovery.",
+      "features": [
+        "Sports injury treatment",
+        "Performance enhancement programs",
+        "Injury prevention strategies",
+        "Return to sport protocols",
+        "Sports-specific rehabilitation"
+      ]
+    },
+    "manual": {
+      "title": "Manual Therapy",
+      "description": "Hands-on therapy techniques that target specific areas of pain and dysfunction, providing immediate relief and long-term benefits.",
+      "features": [
+        "Joint mobilization",
+        "Soft tissue manipulation",
+        "Trigger point therapy",
+        "Myofascial release",
+        "Manual stretching techniques"
+      ]
+    },
+    "rehabilitation": {
+      "title": "Rehabilitation",
+      "description": "Comprehensive rehabilitation programs designed to help you recover from surgery, injuries, or medical conditions.",
+      "features": [
+        "Post-surgery rehabilitation",
+        "Injury recovery programs",
+        "Neurological rehabilitation",
+        "Cardiac rehabilitation",
+        "Respiratory rehabilitation"
+      ]
+    },
+    "massage": {
+      "title": "Therapeutic Massage",
+      "description": "Therapeutic massage treatments that promote healing, reduce pain, and improve overall well-being.",
+      "features": [
+        "Deep tissue massage",
+        "Sports massage",
+        "Relaxation massage",
+        "Trigger point therapy",
+        "Myofascial release"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "sendMessage": "Send us a Message",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "message": "Message",
+    "messagePlaceholder": "Type your message here...",
+    "submit": "Send Message",
+    "mapPlaceholder": "Map will be displayed here",
+    "validation": {
+      "required": "This field is required",
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number"
+    },
+    "success": "Message sent successfully!",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "footer": {
+    "contact": "Contact",
+    "address": "Main Street 123, City",
+    "phone": "Phone: +34 123 456 789",
+    "email": "lol",
+    "hours": "Opening Hours",
+    "weekdays": "Monday to Friday: 9:00 AM - 8:00 PM",
+    "saturday": "Saturday: 9:00 AM - 2:00 PM",
+    "follow": "Follow Us",
+    "rights": "All rights reserved"
+  },
+  "whyChooseUs": {
+    "title": "Why Choose Us",
+    "expertTeam": {
+      "title": "Expert Team",
+      "description": "Our team consists of highly qualified and experienced physiotherapists."
+    },
+    "modernEquipment": {
+      "title": "Modern Equipment",
+      "description": "We use the latest technology and equipment for the best results."
+    },
+    "personalizedCare": {
+      "title": "Personalized Care",
+      "description": "We provide customized treatment plans for each patient."
+    }
+  },
+  "bookAppointment": {
+    "title": "Book Your Appointment",
+    "description": "Select a date and time that works for your physiotherapy session"
+  }
+} 

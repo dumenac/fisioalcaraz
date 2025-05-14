@@ -12,7 +12,7 @@ useSeoMeta({
 // Prevent favicon requests
 useHead({
   link: [
-    { rel: 'icon', href: 'data:,' }
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
   ]
 })
 </script>

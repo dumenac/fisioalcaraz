@@ -5,6 +5,7 @@
       <slot />
     </main>
     <button 
+      v-if="route.path !== '/cita'"
       class="fixed z-50 bottom-5 right-5 
              bg-primary-300 text-primary-800
              hover:bg-primary-400 hover:text-primary-100 hover:cursor-pointer
@@ -24,6 +25,7 @@
 <script setup>
 const { locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
+const route = useRoute();
 
 const availableLocales = computed(() => {
   return locales.value.filter((i) => i.code !== locale.value);

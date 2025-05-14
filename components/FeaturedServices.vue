@@ -2,7 +2,7 @@
   <section class="py-20 bg-gradient-to-b from-white to-secondary-50/50">
     <div class="container mx-auto px-4">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-4xl font-bold mb-4 text-primary-800">{{ $t('services.title') }}</h2>
+        <h2 class="text-4xl  mb-4 text-primary-800">{{ $t('services.title') }}</h2>
         <p class="text-gray-600 text-lg">{{ $t('services.subtitle') }}</p>
       </div>
       
@@ -19,12 +19,12 @@
             <div class="text-primary-500 text-5xl mb-6 transform group-hover:scale-105 transition-transform duration-300">
               <Icon :name="service.icon" />
             </div>
-            <h3 class="text-2xl font-bold mb-4 text-primary-800">{{ $t(`services.${service.id}.title`) }}</h3>
+            <h3 class="text-2xl  mb-4 text-primary-800">{{ $t(`services.${service.id}.title`) }}</h3>
             <p class="text-gray-600 leading-relaxed flex-1">{{ $t(`services.${service.id}.description`) }}</p>
             
             <!-- Hover reveal button -->
             <div class="mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <button class="inline-flex items-center text-primary-500 font-semibold hover:text-primary-600">
+              <button class="inline-flex items-center text-primary-500  hover:text-primary-600">
                 Learn more
                 <Icon name="mdi:arrow-right" class="ml-2 transform group-hover:translate-x-1 transition-transform" />
               </button>

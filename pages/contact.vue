@@ -7,7 +7,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <!-- Contact Information Card -->
             <div class="bg-white rounded-2xl p-8 lg:p-12 border border-gray-100">
-              <h2 class="text-3xl font-bold mb-8 text-primary-900">{{ $t('contact.getInTouch') }}</h2>
+              <h2 class="text-3xl  mb-8 text-primary-900">{{ $t('contact.getInTouch') }}</h2>
               
               <div class="space-y-8">
                 <div class="flex items-start space-x-4 group">
@@ -15,7 +15,7 @@
                     <Icon name="mdi:map-marker" />
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg mb-1 text-gray-900">{{ $t('footer.contact') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('footer.contact') }}</h3>
                     <p class="text-gray-600">{{ $t('footer.address') }}</p>
                   </div>
                 </div>
@@ -25,7 +25,7 @@
                     <Icon name="mdi:phone" />
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg mb-1 text-gray-900">{{ $t('contact.phone') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('contact.phone') }}</h3>
                     <p class="text-gray-600">{{ $t('footer.phone') }}</p>
                   </div>
                 </div>
@@ -35,7 +35,7 @@
                     <Icon name="mdi:email" />
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg mb-1 text-gray-900">{{ $t('contact.email') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('contact.email') }}</h3>
                     <p class="text-gray-600">info@fisioalcaraz.com</p>
                   </div>
                 </div>
@@ -45,7 +45,7 @@
                     <Icon name="mdi:clock" />
                   </div>
                   <div>
-                    <h3 class="font-semibold text-lg mb-1 text-gray-900">{{ $t('footer.hours') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('footer.hours') }}</h3>
                     <p class="text-gray-600">{{ $t('footer.weekdays') }}</p>
                     <p class="text-gray-600">{{ $t('footer.saturday') }}</p>
                   </div>

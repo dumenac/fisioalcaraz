@@ -5,7 +5,7 @@
       <div class="flex flex-col items-start md:items-start md:flex-row md:justify-start mb-10">
         <div class="flex flex-col items-start">
           <div class="flex flex-row items-center space-x-4 mb-2 justify-start">
-            <span class="text-2xl font-bold tracking-tight uppercase font-logo">{{ $t('site.name') }}</span>
+            <span class="text-2xl  tracking-tight uppercase font-logo">{{ $t('site.name') }}</span>
           </div>
           <p class="text-white/90 text-base leading-relaxed max-w-2xl text-left">
             {{ $t('footer.description') }}
@@ -16,7 +16,7 @@
       <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-12 md:gap-8">
         <!-- Contact Info -->
         <div class="flex-1 min-w-[220px] flex flex-col">
-          <h3 class="text-2xl font-semibold mb-4">{{ $t('footer.contactUs') }}</h3>
+          <h3 class="text-2xl  mb-4">{{ $t('footer.contactUs') }}</h3>
           <ul class="text-white/90 space-y-1">
             <li>{{ $t('footer.clinicName') }}</li>
             <li>{{ $t('footer.address') }}</li>
@@ -27,7 +27,7 @@
         </div>
         <!-- Navigation -->
         <div class="flex-1 min-w-[220px] flex flex-col">
-          <h3 class="text-2xl font-semibold mb-4">{{ $t('footer.aboutUs') }}</h3>
+          <h3 class="text-2xl  mb-4">{{ $t('footer.aboutUs') }}</h3>
           <ul class="space-y-1 text-white/90">
             <li><NuxtLinkLocale to="/" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.home') }}</NuxtLinkLocale></li>
             <li><NuxtLinkLocale to="/about" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.about') }}</NuxtLinkLocale></li>

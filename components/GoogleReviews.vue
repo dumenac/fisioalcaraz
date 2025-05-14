@@ -1,6 +1,6 @@
 <template>
   <div class="google-reviews">
-    <h2 class="text-2xl font-bold mb-6 text-center">{{ $t('reviews.title') }}</h2>
+    <h2 class="text-2xl  mb-6 text-center">{{ $t('reviews.title') }}</h2>
     <div v-if="loading" class="text-center">
       <p>{{ $t('reviews.loading') }}</p>
     </div>

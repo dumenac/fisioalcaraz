@@ -2,7 +2,7 @@
   <div>
     <section class="py-20">
       <div class="container mx-auto px-4">
-        <h1 class="text-5xl font-bold text-center mb-16">{{ $t('services.title') }}</h1>
+        <h1 class="text-5xl  text-center mb-16">{{ $t('services.title') }}</h1>
         
         <div class="space-y-24">
           <div 
@@ -22,7 +22,7 @@
                   <div class="w-16 h-16 mb-6 rounded-full bg-primary-100 flex items-center justify-center">
                     <Icon :name="service.icon" class="w-8 h-8 text-primary-600" />
                   </div>
-                  <h2 class="text-3xl font-bold mb-4">{{ $t(service.title) }}</h2>
+                  <h2 class="text-3xl  mb-4">{{ $t(service.title) }}</h2>
                   <p class="text-gray-600 mb-6">{{ $t(service.description) }}</p>
                   <ul class="space-y-3">
                     <li 

@@ -5,7 +5,7 @@
         <Icon :name="service.icon" />
       </div>
       <div class="flex-1">
-        <h2 class="text-2xl font-semibold mb-4 text-primary-800">{{ $t(service.title) }}</h2>
+        <h2 class="text-2xl  mb-4 text-primary-800">{{ $t(service.title) }}</h2>
         <p class="text-gray-600 mb-8">{{ $t(service.description) }}</p>
         <ul class="list-none text-gray-600 space-y-3 text-left">
           <li v-for="(feature, index) in $tm(service.features)" :key="index" class="flex items-start">

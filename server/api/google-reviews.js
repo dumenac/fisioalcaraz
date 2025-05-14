@@ -33,7 +33,6 @@ export default defineEventHandler(async (event) => {
     }
 
     const data = await response.json()
-    console.log('[Google Reviews API] Data:', data)
     console.log('[Google Reviews API] Successfully fetched reviews')
     return data
   } catch (error) {

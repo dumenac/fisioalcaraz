@@ -15,18 +15,9 @@
                     <Icon name="mdi:map-marker" />
                   </div>
                   <div>
-                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('footer.contact') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('footer.addressTitle') }}</h3>
                     <p class="text-gray-600">{{ $t('footer.address') }}</p>
-                  </div>
-                </div>
-
-                <div class="flex items-start space-x-4 group">
-                  <div class="text-primary-600 text-2xl p-3 bg-primary-50 rounded-lg group-hover:bg-primary-100 transition-colors">
-                    <Icon name="mdi:phone" />
-                  </div>
-                  <div>
-                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('contact.phone') }}</h3>
-                    <p class="text-gray-600">{{ $t('footer.phone') }}</p>
+                    <p class="text-gray-600">{{ $t('footer.city') }}</p>
                   </div>
                 </div>
 
@@ -35,7 +26,7 @@
                     <Icon name="mdi:email" />
                   </div>
                   <div>
-                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('contact.email') }}</h3>
+                    <h3 class=" text-lg mb-1 text-gray-900">{{ $t('footer.emailTitle') }}</h3>
                     <p class="text-gray-600">info@fisioalcaraz.com</p>
                   </div>
                 </div>

@@ -7,7 +7,7 @@
         : 'bg-primary-600'
     ]"
   >
-    <nav class="container mx-auto px-6 py-6">
+    <nav class="container mx-auto px-6 py-6" :class="{ 'bg-white/10': isMobileMenuOpen }">
       <div class="flex justify-between items-center">
         <NuxtLinkLocale to="/" class="uppercase text-2xl font-logo text-white hover:text-white/90 transition-colors flex items-center gap-3">
           {{ $t('site.name') }}
@@ -25,6 +25,17 @@
               <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
             </NuxtLinkLocale>
           </div>
+
+          <!-- Mobile Menu Button -->
+          <button 
+            @click="isMobileMenuOpen = !isMobileMenuOpen"
+            class="md:hidden text-white hover:text-white/90 focus:outline-none my-auto h-8 w-8 flex flex-col"
+          >
+            <Icon 
+              :name="isMobileMenuOpen ? 'heroicons:x-mark' : 'heroicons:bars-3'" 
+              class="w-8 h-8 m-auto p-0"
+            />
+          </button>
 
           <!-- Language Dropdown -->
           <div class="relative" v-click-outside="closeDropdown">
@@ -57,40 +68,29 @@
               </NuxtLink>
             </div>
           </div>
-
-          <!-- Mobile Menu Button -->
-          <button 
-            @click="isMobileMenuOpen = !isMobileMenuOpen"
-            class="md:hidden text-white hover:text-white/90 focus:outline-none"
-          >
-            <Icon 
-              :name="isMobileMenuOpen ? 'heroicons:x-mark' : 'heroicons:bars-3'" 
-              class="w-8 h-8"
-            />
-          </button>
         </div>
       </div>
 
       <!-- Mobile Menu -->
       <Transition
-        enter-active-class="transition duration-200 ease-out"
-        enter-from-class="transform -translate-y-4 opacity-0"
-        enter-to-class="transform translate-y-0 opacity-100"
-        leave-active-class="transition duration-150 ease-in"
-        leave-from-class="transform translate-y-0 opacity-100"
-        leave-to-class="transform -translate-y-4 opacity-0"
+        enter-active-class="transition-all duration-300 ease-out"
+        enter-from-class="opacity-0 max-h-0"
+        enter-to-class="opacity-100 max-h-[500px]"
+        leave-active-class="transition-all duration-300 ease-in"
+        leave-from-class="opacity-100 max-h-[500px]"
+        leave-to-class="opacity-0 max-h-0"
       >
         <div 
-          v-show="isMobileMenuOpen"
-          class="md:hidden mt-4 py-4 border-t border-white/10"
+          v-if="isMobileMenuOpen"
+          class="md:hidden mt-4 border-t border-white/10 overflow-hidden border-b border-white/10"
         >
-          <div class="flex flex-col space-y-4">
+          <div class="flex flex-col">
             <NuxtLinkLocale 
               v-for="(link, index) in navLinks" 
               :key="index"
               :to="link.to"
               @click="isMobileMenuOpen = false"
-              class="text-white hover:text-white/90 transition-colors font-medium text-lg"
+              class="text-white hover:text-white/90 transition-colors font-medium text-lg border-b border-white/10 py-8"
             >
               {{ $t(link.text) }}
             </NuxtLinkLocale>

@@ -21,8 +21,7 @@
             <li>{{ $t('footer.clinicName') }}</li>
             <li>{{ $t('footer.address') }}</li>
             <li>{{ $t('footer.city') }}</li>
-            <li class="mt-2">{{ $t('footer.phone') }}</li>
-            <li>{{ $t('footer.email') }}</li>
+            <li>info@fisioalcaraz.com</li>
           </ul>
         </div>
         <!-- Navigation -->

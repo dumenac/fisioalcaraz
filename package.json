@@ -16,7 +16,7 @@
     "@nuxt/image": "1.10.0",
     "@nuxtjs/i18n": "^9.5.4",
     "@tailwindcss/vite": "^4.1.6",
-    "nuxt-calendly": "^1.0.0",
+    "nuxt-calendly": "^0.1.21",
     "nuxt": "^3.17.3",
     "tailwindcss": "^4.1.6",
     "vue": "^3.5.13",

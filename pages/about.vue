@@ -1,21 +1,21 @@
 <template>
   <div class="bg-white">
     <!-- Main Content -->
-    <section class="py-24 w-full">
-      <div class="container mx-auto px-4">
+    <section class="md:py-24 w-full">
+      <div class="container mx-auto md:px-4">
         <!-- Content Layout -->
         <div class="grid lg:grid-cols-12 gap-16 items-start">
           <!-- Image -->
           <div class="lg:col-span-5">
-            <div class="sticky top-24">
-              <div class="aspect-w-3 aspect-h-4 rounded-2xl overflow-hidden shadow-xl">
-                <img src="/images/juan.png" :alt="$t('about.imageAlt')" class="w-full h-full object-cover">
+            <div class="lg:sticky lg:top-24">
+              <div class="aspect-w-3 aspect-h-4 lg:rounded-2xl overflow-hidden lg:shadow-xl">
+                <img src="/images/juan.png" :alt="$t('about.imageAlt')" class="w-full h-64 md:h-full object-cover">
               </div>
             </div>
           </div>
 
           <!-- Bio -->
-          <div class="lg:col-span-7 space-y-16">
+          <div class="lg:col-span-7 space-y-16 px-4 sm:px-0">
             <!-- Header -->
             <div>
               <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6">{{ $t('about.title') }}</h1>
@@ -77,8 +77,8 @@
     <section class="py-24 w-full bg-primary-600 text-white">
       <div class="container mx-auto px-4">
         <div class="text-center">
-          <h2 class="text-5xl font-bold mb-8">{{ $t('about.cta.title') }}</h2>
-          <p class="text-2xl mb-12">{{ $t('about.cta.subtitle') }}</p>
+          <h2 class="text-2xl font-bold mb-8">{{ $t('about.cta.title') }}</h2>
+          <p class="text-xl mb-12">{{ $t('about.cta.subtitle') }}</p>
           <NuxtLinkLocale to="/cita" class="inline-block bg-white text-primary-600 px-12 py-5 rounded-full font-semibold text-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
             {{ $t('about.cta.button') }}
           </NuxtLinkLocale>

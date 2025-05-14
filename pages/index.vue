@@ -1,12 +1,8 @@
 <template>
-  <div>
+  <div class="overflow-x-hidden">
     <HeroSection />
     <FeaturedServices />
     <WhyChooseUs />
     <GoogleReviews />
   </div>
 </template>
-
-<script setup>
-import GoogleReviews from '~/components/GoogleReviews.vue'
-</script> 

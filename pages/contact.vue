@@ -62,7 +62,3 @@
     </section>
   </div>
 </template>
-
-<script setup>
-// No script needed for this simplified version
-</script> 

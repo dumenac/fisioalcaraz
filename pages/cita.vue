@@ -20,7 +20,8 @@
 </template>
 
 <script lang="ts" setup>
-    const options = {
-        url: 'https://calendly.com/jalcaraz-fisioterapia/50min',   
-    }
+
+const options = {
+    url: 'https://calendly.com/jalcaraz-fisioterapia/50min',   
+}
 </script>

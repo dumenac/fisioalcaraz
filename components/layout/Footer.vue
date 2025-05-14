@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-800/90 backdrop-blur-sm text-white pt-14 pb-6">
+  <footer class="bg-tertiary-200/90 backdrop-blur-sm text-gray-800 pt-14 pb-6">
     <div class="container mx-auto px-6">
       <!-- Top: Logo, Name (left-aligned), Description below -->
       <div class="flex flex-col items-start md:items-start md:flex-row md:justify-start mb-10">
@@ -7,7 +7,7 @@
           <div class="flex flex-row items-center space-x-4 mb-2 justify-start">
             <span class="text-2xl  tracking-tight uppercase font-logo">{{ $t('site.name') }}</span>
           </div>
-          <p class="text-white/90 text-base leading-relaxed max-w-2xl text-left">
+          <p class="text-gray-500 text-base leading-relaxed max-w-2xl text-left">
             {{ $t('footer.description') }}
           </p>
         </div>
@@ -17,7 +17,7 @@
         <!-- Contact Info -->
         <div class="flex-1 min-w-[220px] flex flex-col">
           <h3 class="text-2xl  mb-4">{{ $t('footer.contactUs') }}</h3>
-          <ul class="text-white/90 space-y-1">
+          <ul class="text-gray-500 space-y-1">
             <li>{{ $t('footer.clinicName') }}</li>
             <li>{{ $t('footer.address') }}</li>
             <li>{{ $t('footer.city') }}</li>
@@ -27,29 +27,29 @@
         <!-- Navigation -->
         <div class="flex-1 min-w-[220px] flex flex-col">
           <h3 class="text-2xl  mb-4">{{ $t('footer.aboutUs') }}</h3>
-          <ul class="space-y-1 text-white/90">
-            <li><NuxtLinkLocale to="/" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.home') }}</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/about" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.about') }}</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/services" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.services') }}</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/contact" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.contact') }}</NuxtLinkLocale></li>
-            <li><NuxtLinkLocale to="/cita" class="hover:underline hover:text-tertiary-300 transition">{{ $t('nav.book') }}</NuxtLinkLocale></li>
+          <ul class="space-y-1 text-gray-500">
+            <li><NuxtLinkLocale to="/" class="hover:underline hover:text-gray-100 transition">{{ $t('nav.home') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/about" class="hover:underline hover:text-gray-100 transition">{{ $t('nav.about') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/services" class="hover:underline hover:text-gray-100 transition">{{ $t('nav.services') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/contact" class="hover:underline hover:text-gray-100 transition">{{ $t('nav.contact') }}</NuxtLinkLocale></li>
+            <li><NuxtLinkLocale to="/cita" class="hover:underline hover:text-gray-100 transition">{{ $t('nav.book') }}</NuxtLinkLocale></li>
           </ul>
         </div>
         <!-- Press, Social, Registration -->
         <div class="flex-1 flex mt-auto ml-auto flex flex-col items-start justify-between">
           <div class="flex items-center justify-between w-full mt-4">
             <div class="flex space-x-4 ml-auto">
-              <a href="https://www.instagram.com/fisioalcaraz" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-tertiary-300 transition-transform hover:scale-110"><Icon name="mdi:instagram" class="w-7 h-7" /></a>
-              <a href="https://maps.google.com/" target="_blank" rel="noopener" aria-label="Google Maps" class="hover:text-tertiary-300 transition-transform hover:scale-110"><Icon name="mdi:map-marker" class="w-7 h-7" /></a>
+              <a href="https://www.instagram.com/fisioalcaraz" target="_blank" rel="noopener" aria-label="Instagram" class="hover:text-gray-100 transition-transform hover:scale-110"><Icon name="mdi:instagram" class="w-7 h-7" /></a>
+              <a href="https://maps.google.com/" target="_blank" rel="noopener" aria-label="Google Maps" class="hover:text-gray-100 transition-transform hover:scale-110"><Icon name="mdi:map-marker" class="w-7 h-7" /></a>
             </div>
           </div>
         </div>
       </div>
       <!-- Divider -->
-      <div class="my-8 border-t border-white/20"></div>
+      <div class="my-8 border-t border-gray-500/20"></div>
       <!-- Bottom Row: Copyright -->
       <div class="text-left">
-        <p class="text-white/90 text-base font-medium">{{ $t('footer.copyright', { year: new Date().getFullYear() }) }}</p>
+        <p class="text-gray-500 text-base font-medium">{{ $t('footer.copyright', { year: new Date().getFullYear() }) }}</p>
       </div>
     </div>
   </footer>

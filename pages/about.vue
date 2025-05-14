@@ -87,7 +87,3 @@
     </section>
   </div>
 </template>
-
-<script setup>
-// No team data needed anymore
-</script> 

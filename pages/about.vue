@@ -15,7 +15,7 @@
           </div>
 
           <!-- Bio -->
-          <div class="lg:col-span-7 space-y-16 px-4 sm:px-0">
+          <div class="lg:col-span-7 space-y-16 px-4 sm:px-0 pb-16 md:pb-0">
             <!-- Header -->
             <div>
               <h1 class="text-5xl md:text-7xl  text-gray-900 mb-6">{{ $t('about.title') }}</h1>
